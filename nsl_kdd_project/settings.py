@@ -13,8 +13,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ===========================
 # CONFIGURACIÓN BÁSICA
 # ===========================
-DEBUG = True  # Cambiar a False en producción
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+DEBUG = False  # Importante: en producción siempre False
+
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'analisisdat.onrender.com']
 
 # ===========================
 # APPS INSTALADAS
